@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Aku</string>
+    <string name="sqrt_root">\u221a</string>
+    <string name="back_space">\u2190</string>
+    <string name="sqrt">x\u00b2</string>
+</resources>
