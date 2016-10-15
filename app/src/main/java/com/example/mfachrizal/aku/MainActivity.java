@@ -137,7 +137,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void masukan(int j) {
         str = str + Integer.toString(j);
-        temp = Integer.valueOf(str);
+        temp = Integer.valueOf(str).intValue();
         textMasuk.setText(str);
     }
 
@@ -164,6 +164,7 @@ public class MainActivity extends AppCompatActivity {
             temp = (float) Math.pow(temp2, 2);
         else if (operasi == 'a')
             temp = (float) Math.sqrt(temp2);
+        textMasuk.setText(""+temp);
 
     }
 
